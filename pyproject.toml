@@ -1,0 +1,14 @@
+[project]
+name = "dynamicpose-comfyui"
+description = "NODES:pose_extraction, Load_reference_unet, Load_denoising_unet, Load_Pose_Guider, Pose_Guider_Encode, DynamicPose_Sampler, load_pose_model, align"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/Bin-sam/DynamicPose-ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "DynamicPose-ComfyUI"
+Icon = ""
